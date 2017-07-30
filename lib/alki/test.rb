@@ -43,6 +43,6 @@ end
 
 test_helper = File.join(Alki::Test.tests_root,'test_helper.rb')
 
-if File.exists? test_helper
+if File.exist? test_helper
   require test_helper
 end
